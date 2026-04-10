@@ -192,7 +192,7 @@ class TestDedupEngine:
         assert get_threshold("fire") < get_threshold("violence")
 
     def test_dynamic_threshold_violence_higher(self):
-        assert get_threshold("violence") >= 0.75
+        assert get_threshold("violence") > get_threshold("road_accident")
 
     def test_keyword_overlap_same_keywords(self):
         score = keyword_overlap("fire injured near junction", "fire accident injured")

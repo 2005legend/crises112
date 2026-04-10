@@ -31,14 +31,14 @@ W_TEMPORAL  = 0.15
 
 # ── Dynamic thresholds per incident type ─────────────────────────────────────
 MERGE_THRESHOLDS = {
-    "fire":          0.60,   # fire reports vary wildly — be aggressive
-    "road_accident": 0.65,
-    "medical":       0.65,
-    "flood":         0.62,
-    "violence":      0.75,   # conservative — two weapon incidents nearby ≠ same
-    "crime":         0.75,
-    "unknown":       0.70,
-    "default":       0.65,
+    "fire":          0.52,   # fire reports vary wildly — be aggressive
+    "road_accident": 0.55,
+    "medical":       0.55,
+    "flood":         0.52,
+    "violence":      0.65,   # conservative — two weapon incidents nearby != same
+    "crime":         0.65,
+    "unknown":       0.58,
+    "default":       0.55,
 }
 
 # ── Emergency keyword vocabulary for Jaccard overlap ─────────────────────────
