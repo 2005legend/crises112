@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { IncidentProvider } from './contexts/IncidentContext';
 import Dashboard from './pages/Dashboard';
 import './App.css';
@@ -7,17 +7,13 @@ import './index.css';
 
 // A simple navigation header
 const Header = () => {
-  const location = useLocation();
-  const isDemo = location.pathname === '/demo';
-
   return (
     <header className="navbar">
       <div className="logo">
         <span className="icon">🚨</span> Emergency Dashboard
       </div>
       <nav className="nav-links">
-        <Link to="/" className={!isDemo ? 'active' : ''}>Live Ops</Link>
-        <Link to="/demo" className={isDemo ? 'active' : ''}>Demo Mode</Link>
+        <Link to="/" className="active">Live Ops</Link>
       </nav>
       <div className="status-indicator">
         <div className="pulsing-dot"></div>
@@ -27,8 +23,6 @@ const Header = () => {
   );
 };
 
-import Demo from './pages/Demo';
-
 function App() {
   return (
     <IncidentProvider>
@@ -37,7 +31,6 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/demo" element={<Demo />} />
           </Routes>
         </div>
       </BrowserRouter>
