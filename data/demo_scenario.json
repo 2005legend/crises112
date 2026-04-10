@@ -1,0 +1,52 @@
+[
+  {
+    "modality": "voice",
+    "raw_text": "There has been a major road accident near Anna Flyover on NH48. Multiple vehicles involved, at least two people are injured and blocking traffic.",
+    "source": "9841100001"
+  },
+  {
+    "modality": "text",
+    "raw_text": "Accident on Anna Flyover NH48. Cars piled up. Ambulance needed urgently.",
+    "source": "9841100002"
+  },
+  {
+    "modality": "voice",
+    "raw_text": "I am calling from Anna Flyover. There is a big crash, a truck hit two cars. People are trapped inside one of the cars.",
+    "source": "9841100003"
+  },
+  {
+    "modality": "image",
+    "raw_text": "Image caption: Overturned truck on NH48 near Anna Flyover, debris scattered across both lanes, bystanders gathered.",
+    "source": "9841100004"
+  },
+  {
+    "modality": "text",
+    "raw_text": "Multi-vehicle collision at Anna Flyover NH48. Road completely blocked. Police and fire brigade required.",
+    "source": "9841100005"
+  },
+  {
+    "modality": "voice",
+    "raw_text": "Hello, I am near Anna Flyover on the highway. A lorry has overturned and hit two cars. One person is unconscious. Please send help fast.",
+    "source": "9841100006"
+  },
+  {
+    "modality": "text",
+    "raw_text": "Crash at Anna Flyover NH48. Truck overturned. 3 injured. Traffic jam stretching 2 km.",
+    "source": "9841100007"
+  },
+  {
+    "modality": "image",
+    "raw_text": "Image caption: Emergency responders at scene of truck-car collision on NH48 Anna Flyover, injured person on stretcher.",
+    "source": "9841100008"
+  },
+  {
+    "modality": "voice",
+    "raw_text": "Accident near Anna Flyover. Truck and two cars collided. One car is on fire. Please send fire engine and ambulance immediately.",
+    "source": "9841100009"
+  },
+  {
+    "modality": "text",
+    "raw_text": "NH48 Anna Flyover accident. Truck on fire after collision. Urgent help needed. Multiple casualties reported.",
+    "source": "9841100010"
+  }
+]

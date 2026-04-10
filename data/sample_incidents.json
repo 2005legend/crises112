@@ -1,0 +1,236 @@
+[
+  {
+    "incident_id": "33c35895-d9f2-40b8-8e5e-0661740b25af",
+    "incident_type": "road_accident",
+    "lat": 13.0878,
+    "lon": 80.2185,
+    "severity_label": "High",
+    "area_name": "Anna Nagar",
+    "report_count": 4
+  },
+  {
+    "incident_id": "ca67aa1b-1de9-418f-b147-d8b60776e6a1",
+    "incident_type": "medical",
+    "lat": 13.086,
+    "lon": 80.217,
+    "severity_label": "Critical",
+    "area_name": "Anna Nagar",
+    "report_count": 2
+  },
+  {
+    "incident_id": "94d0d761-31ca-411f-8b42-6dba44f59fb2",
+    "incident_type": "fire",
+    "lat": 13.0895,
+    "lon": 80.22,
+    "severity_label": "High",
+    "area_name": "Anna Nagar",
+    "report_count": 3
+  },
+  {
+    "incident_id": "cc9d33c0-1c24-4ba6-973d-0566e71c007f",
+    "incident_type": "crime",
+    "lat": 13.0845,
+    "lon": 80.2155,
+    "severity_label": "Medium",
+    "area_name": "Anna Nagar",
+    "report_count": 1
+  },
+  {
+    "incident_id": "9f030472-4703-4c22-8bca-4a108517113f",
+    "incident_type": "road_accident",
+    "lat": 13.091,
+    "lon": 80.221,
+    "severity_label": "Low",
+    "area_name": "Anna Nagar",
+    "report_count": 1
+  },
+  {
+    "incident_id": "e2794c22-46a3-4325-a0ce-384056a01da1",
+    "incident_type": "fire",
+    "lat": 13.0418,
+    "lon": 80.2341,
+    "severity_label": "Critical",
+    "area_name": "T. Nagar",
+    "report_count": 5
+  },
+  {
+    "incident_id": "4e39147e-45b1-4508-a605-33c552b64f8c",
+    "incident_type": "flood",
+    "lat": 13.04,
+    "lon": 80.232,
+    "severity_label": "High",
+    "area_name": "T. Nagar",
+    "report_count": 3
+  },
+  {
+    "incident_id": "0cb391f4-0ae7-474e-a79c-13e76a2f2cce",
+    "incident_type": "road_accident",
+    "lat": 13.0435,
+    "lon": 80.236,
+    "severity_label": "Medium",
+    "area_name": "T. Nagar",
+    "report_count": 2
+  },
+  {
+    "incident_id": "41016b78-08b7-42db-9bc9-74431570c763",
+    "incident_type": "medical",
+    "lat": 13.045,
+    "lon": 80.238,
+    "severity_label": "High",
+    "area_name": "T. Nagar",
+    "report_count": 2
+  },
+  {
+    "incident_id": "f832b055-a1fa-4b2a-9016-e07ba9e128bd",
+    "incident_type": "crime",
+    "lat": 13.039,
+    "lon": 80.23,
+    "severity_label": "Low",
+    "area_name": "T. Nagar",
+    "report_count": 1
+  },
+  {
+    "incident_id": "f012e3f8-83a3-4f23-b2f1-18fff3c5ccdc",
+    "incident_type": "flood",
+    "lat": 13.0012,
+    "lon": 80.2565,
+    "severity_label": "High",
+    "area_name": "Adyar",
+    "report_count": 6
+  },
+  {
+    "incident_id": "5414b882-e5e5-4d3d-8d46-22b02d19d7bb",
+    "incident_type": "road_accident",
+    "lat": 13.003,
+    "lon": 80.258,
+    "severity_label": "Medium",
+    "area_name": "Adyar",
+    "report_count": 2
+  },
+  {
+    "incident_id": "423fd356-e840-437c-8c9c-6d2ac9a52306",
+    "incident_type": "medical",
+    "lat": 12.9995,
+    "lon": 80.255,
+    "severity_label": "Critical",
+    "area_name": "Adyar",
+    "report_count": 3
+  },
+  {
+    "incident_id": "f67a32ca-8f65-4904-80e1-79febf6bbad5",
+    "incident_type": "fire",
+    "lat": 13.005,
+    "lon": 80.26,
+    "severity_label": "High",
+    "area_name": "Adyar",
+    "report_count": 2
+  },
+  {
+    "incident_id": "358af12b-694e-49ee-8b13-ec55debe5075",
+    "incident_type": "crime",
+    "lat": 13.007,
+    "lon": 80.262,
+    "severity_label": "Low",
+    "area_name": "Adyar",
+    "report_count": 1
+  },
+  {
+    "incident_id": "1eb1c935-91de-46b4-a720-a9eba7718380",
+    "incident_type": "flood",
+    "lat": 12.9815,
+    "lon": 80.218,
+    "severity_label": "Critical",
+    "area_name": "Velachery",
+    "report_count": 7
+  },
+  {
+    "incident_id": "c7c7929e-6078-45e7-8ad3-159e41cacfb1",
+    "incident_type": "road_accident",
+    "lat": 12.983,
+    "lon": 80.22,
+    "severity_label": "High",
+    "area_name": "Velachery",
+    "report_count": 4
+  },
+  {
+    "incident_id": "c0d37a57-680d-4069-9bc8-3b5a3bfc228b",
+    "incident_type": "medical",
+    "lat": 12.98,
+    "lon": 80.216,
+    "severity_label": "Medium",
+    "area_name": "Velachery",
+    "report_count": 2
+  },
+  {
+    "incident_id": "22b884fc-4f8c-424c-9c2f-bcb145161806",
+    "incident_type": "fire",
+    "lat": 12.9845,
+    "lon": 80.222,
+    "severity_label": "High",
+    "area_name": "Velachery",
+    "report_count": 3
+  },
+  {
+    "incident_id": "f73a2036-f7dc-4140-87a9-a485c3182536",
+    "incident_type": "crime",
+    "lat": 12.986,
+    "lon": 80.224,
+    "severity_label": "Low",
+    "area_name": "Velachery",
+    "report_count": 1
+  },
+  {
+    "incident_id": "a5bb11f3-1d8c-40e7-b037-2f36c9f695eb",
+    "incident_type": "road_accident",
+    "lat": 12.9249,
+    "lon": 80.1,
+    "severity_label": "High",
+    "area_name": "Tambaram",
+    "report_count": 3
+  },
+  {
+    "incident_id": "13843c9e-ffa1-41ab-bdfa-567858d0bb84",
+    "incident_type": "fire",
+    "lat": 12.926,
+    "lon": 80.102,
+    "severity_label": "Medium",
+    "area_name": "Tambaram",
+    "report_count": 2
+  },
+  {
+    "incident_id": "f43e9ff7-4554-41a1-98a6-8a08daefab7e",
+    "incident_type": "medical",
+    "lat": 12.9235,
+    "lon": 80.098,
+    "severity_label": "Critical",
+    "area_name": "Tambaram",
+    "report_count": 4
+  },
+  {
+    "incident_id": "3bab6159-6e57-4a80-8b10-9761e73c77cb",
+    "incident_type": "flood",
+    "lat": 12.927,
+    "lon": 80.104,
+    "severity_label": "High",
+    "area_name": "Tambaram",
+    "report_count": 2
+  },
+  {
+    "incident_id": "b4c165c5-7139-4123-b860-28c9a1b54a3e",
+    "incident_type": "crime",
+    "lat": 12.922,
+    "lon": 80.096,
+    "severity_label": "Low",
+    "area_name": "Tambaram",
+    "report_count": 1
+  },
+  {
+    "incident_id": "4eae4ee4-9a87-4ea1-803b-39274b77bbbf",
+    "incident_type": "road_accident",
+    "lat": 13.0358,
+    "lon": 80.1573,
+    "severity_label": "Medium",
+    "area_name": "Porur",
+    "report_count": 2
+  }
+]
