@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# pytest / hypothesis
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+coverage.xml
+
+# Model cache (large files — download on first run)
+.cache/
+*.bin
+*.pt
+*.onnx
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro internal
+.kiro/
+
+# Test images (may contain sensitive content)
+ai_service/tests/test_images/
+
+# Debug scripts
+ai_service/tests/_debug_score.py
+
+# Env files with secrets
+.env
+*.env

@@ -1,0 +1,131 @@
+{
+  "description": "Synthetic dedup test dataset for EIFS. 18 pairs covering same-event merges, same-location different-event separations, and different-location same-type separations.",
+  "pairs": [
+    {
+      "id": "SE-01",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Lorry and bike collision near Anna Nagar signal, one person injured and bleeding",
+      "incident_summary": "Road accident at Anna Nagar signal involving truck and motorcycle, victim on ground"
+    },
+    {
+      "id": "SE-02",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Fire broke out in a building on MG Road, smoke visible from far",
+      "incident_summary": "Building fire on MG Road with heavy smoke, residents evacuating"
+    },
+    {
+      "id": "SE-03",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Man unconscious near Silk Board junction, not responding to calls",
+      "incident_summary": "Unconscious male found at Silk Board flyover, ambulance needed urgently"
+    },
+    {
+      "id": "SE-04",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Multiple vehicles crashed on NH-48 near Electronic City, highway blocked",
+      "incident_summary": "Multi-vehicle pile-up on NH-48 Electronic City stretch, 3 cars involved"
+    },
+    {
+      "id": "SE-05",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Child fell into open manhole near T Nagar bus stand",
+      "incident_summary": "Minor child trapped in uncovered drain at T Nagar, rescue needed"
+    },
+    {
+      "id": "SE-06",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Armed robbery at petrol bunk on OMR, man with knife threatening staff",
+      "incident_summary": "Knife-point robbery at OMR fuel station, suspect still on premises"
+    },
+    {
+      "id": "SE-07",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Bus overturned on Hosur Road near Bommanahalli, passengers trapped inside",
+      "incident_summary": "Bus accident Hosur Road Bommanahalli, vehicle on its side, people stuck"
+    },
+    {
+      "id": "SE-08",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Flood water entered houses in Velachery, families stranded on rooftops",
+      "incident_summary": "Flooding in Velachery residential area, several families need evacuation"
+    },
+    {
+      "id": "SL-01",
+      "category": "same_location_different_event",
+      "expected_merge": false,
+      "report_summary": "Road accident near Anna Nagar signal, bike hit a car",
+      "incident_summary": "Fire in a shop near Anna Nagar signal, smoke coming out"
+    },
+    {
+      "id": "SL-02",
+      "category": "same_location_different_event",
+      "expected_merge": false,
+      "report_summary": "Man collapsed on MG Road footpath, needs medical help",
+      "incident_summary": "Robbery on MG Road, two men snatched a phone and ran"
+    },
+    {
+      "id": "SL-03",
+      "category": "same_location_different_event",
+      "expected_merge": false,
+      "report_summary": "Flooding near Silk Board junction, water on road",
+      "incident_summary": "Accident at Silk Board, car hit a two-wheeler"
+    },
+    {
+      "id": "SL-04",
+      "category": "same_location_different_event",
+      "expected_merge": false,
+      "report_summary": "Gas cylinder explosion in a flat in T Nagar",
+      "incident_summary": "Theft reported in T Nagar apartment, door broken"
+    },
+    {
+      "id": "DL-01",
+      "category": "different_location_same_type",
+      "expected_merge": false,
+      "report_summary": "Road accident near Adyar bridge, two bikes collided",
+      "incident_summary": "Road accident near Tambaram bus stand, lorry hit a scooter"
+    },
+    {
+      "id": "DL-02",
+      "category": "different_location_same_type",
+      "expected_merge": false,
+      "report_summary": "Fire in a warehouse in Ambattur industrial area",
+      "incident_summary": "Fire at a factory in Guindy, workers evacuated"
+    },
+    {
+      "id": "DL-03",
+      "category": "different_location_same_type",
+      "expected_merge": false,
+      "report_summary": "Unconscious person found near Koyambedu market",
+      "incident_summary": "Person fainted near Central Railway Station, crowd gathered"
+    },
+    {
+      "id": "DL-04",
+      "category": "different_location_same_type",
+      "expected_merge": false,
+      "report_summary": "Flooding in Saidapet, cars submerged in water",
+      "incident_summary": "Flood situation in Perambur, roads waterlogged"
+    },
+    {
+      "id": "DL-05",
+      "category": "different_location_same_type",
+      "expected_merge": false,
+      "report_summary": "Child missing near Besant Nagar beach",
+      "incident_summary": "Missing child reported at Marina Beach, parents searching"
+    },
+    {
+      "id": "SE-09",
+      "category": "same_event",
+      "expected_merge": true,
+      "report_summary": "Shooting incident near Nungambakkam police station, one person shot",
+      "incident_summary": "Gunshot heard near Nungambakkam, injured person lying on road"
+    }
+  ]
+}
